@@ -1,0 +1,84 @@
+﻿
+
+EventID            : 4659
+MachineName        : DC.test.com
+Data               : {}
+Index              : 2570572
+Category           : (12800)
+CategoryNumber     : 12800
+EntryType          : SuccessAudit
+Message            : 已请求到对象的句柄，目的是进行删除。
+                     
+                     使用者:
+                     	安全 ID:		S-1-5-21-1640300408-689457312-2532650020-1104
+                     	帐户名:		IT01
+                     	帐户域:		TEST
+                     	登录 ID:		0x2736e33
+                     
+                     对象:
+                     	对象服务器:	Security
+                     	对象类型:	File
+                     	对象名:	C:\File\New Text Document.txt
+                     	句柄 ID:	0x0
+                     
+                     进程信息:
+                     	进程 ID:	0x4
+                     
+                     访问请求信息:
+                     	事务 ID:	{00000000-0000-0000-0000-000000000000}
+                     	访问:	%%1537
+                     				%%4423
+                     				
+                     	访问掩码:	0x10080
+                     	用于访问检查的特权:	-
+Source             : Microsoft-Windows-Security-Auditing
+ReplacementStrings : {S-1-5-21-1640300408-689457312-2532650020-1104, IT01, TEST, 0x2736e33...}
+InstanceId         : 4659
+TimeGenerated      : 2019/12/11 15:53:24
+TimeWritten        : 2019/12/11 15:53:24
+UserName           : 
+Site               : 
+Container          : 
+
+EventID            : 4659
+MachineName        : DC.test.com
+Data               : {}
+Index              : 2570556
+Category           : (12800)
+CategoryNumber     : 12800
+EntryType          : SuccessAudit
+Message            : 已请求到对象的句柄，目的是进行删除。
+                     
+                     使用者:
+                     	安全 ID:		S-1-5-21-1640300408-689457312-2532650020-500
+                     	帐户名:		Administrator
+                     	帐户域:		TEST
+                     	登录 ID:		0x26cc784
+                     
+                     对象:
+                     	对象服务器:	Security
+                     	对象类型:	File
+                     	对象名:	C:\File\New Microsoft Excel 工作表.xlsx
+                     	句柄 ID:	0x0
+                     
+                     进程信息:
+                     	进程 ID:	0x4
+                     
+                     访问请求信息:
+                     	事务 ID:	{00000000-0000-0000-0000-000000000000}
+                     	访问:	%%1537
+                     				%%4423
+                     				
+                     	访问掩码:	0x10080
+                     	用于访问检查的特权:	-
+Source             : Microsoft-Windows-Security-Auditing
+ReplacementStrings : {S-1-5-21-1640300408-689457312-2532650020-500, Administrator, TEST, 0x26cc784...}
+InstanceId         : 4659
+TimeGenerated      : 2019/12/11 15:34:32
+TimeWritten        : 2019/12/11 15:34:32
+UserName           : 
+Site               : 
+Container          : 
+
+
+
